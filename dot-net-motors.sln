@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dot-net-motors", "dot-net-motors\dot-net-motors.csproj", "{C89D6B2A-9516-4632-A76C-77C3A9C46AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{B9622223-2B63-4D61-BAB0-411B07517287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C89D6B2A-9516-4632-A76C-77C3A9C46AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89D6B2A-9516-4632-A76C-77C3A9C46AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89D6B2A-9516-4632-A76C-77C3A9C46AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89D6B2A-9516-4632-A76C-77C3A9C46AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9622223-2B63-4D61-BAB0-411B07517287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9622223-2B63-4D61-BAB0-411B07517287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9622223-2B63-4D61-BAB0-411B07517287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9622223-2B63-4D61-BAB0-411B07517287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38AA4B31-D2B3-4621-9CF3-5C85B26CF7CB}
+	EndGlobalSection
+EndGlobal

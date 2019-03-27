@@ -358,5 +358,99 @@ namespace XUnitTestProject1
 
             Assert.False(ht.RollCage);
         }
+
+        [Fact]
+        public void TestCanDrivePickupSet()
+        {
+            Pickup pu = new Pickup();
+
+            pu.CanDrive = true;
+
+            Assert.True(pu.CanDrive);
+        }
+
+        [Fact]
+        public void TestCanDriveCargoSet()
+        {
+            Cargo cg = new Cargo();
+
+            cg.CanDrive = true;
+
+            Assert.True(cg.CanDrive);
+        }
+        [Fact]
+        public void TestCanDriveHatchSet()
+        {
+            Hatchback hb = new Hatchback();
+
+            hb.CanDrive = true;
+
+            Assert.True(hb.CanDrive);
+        }
+        [Fact]
+        public void TestCanDriveSoftSet()
+        {
+            Softtop st = new Softtop();
+
+            st.CanDrive = true;
+
+            Assert.True(st.CanDrive);
+        }
+        [Fact]
+        public void TestCanDriveHardSet()
+        {
+            Hardtop ht = new Hardtop();
+
+            ht.CanDrive = true;
+
+            Assert.True(ht.CanDrive);
+        }
+
+        [Fact]
+        public void TestFuelTypePickupSet()
+        {
+            Pickup pu = new Pickup();
+
+            pu.FuelType = "Gas";
+
+            Assert.Equal("Gas", pu.FuelType);
+        }
+
+        [Fact]
+        public void TestFuelTypeCargoSet()
+        {
+            Cargo cg = new Cargo();
+
+            cg.FuelType = "Gas";
+
+            Assert.Equal("Gas", cg.FuelType);
+        }
+        [Fact]
+        public void TestFuelTypeHatchSet()
+        {
+            Hatchback hb = new Hatchback();
+
+            hb.FuelType = "Gas";
+
+            Assert.Equal("Gas", hb.FuelType);
+        }
+        [Fact]
+        public void TestFuelTypeSoftSet()
+        {
+            Softtop st = new Softtop();
+
+            st.FuelType = "Gas";
+
+            Assert.Equal("Gas", st.FuelType);
+        }
+        [Fact]
+        public void TestFuelTypeHardSet()
+        {
+            Hardtop ht = new Hardtop();
+
+            ht.FuelType = "Gas";
+
+            Assert.Equal("Gas", ht.FuelType);
+        }
     }
 }

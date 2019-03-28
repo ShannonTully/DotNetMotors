@@ -4,8 +4,21 @@ using System.Text;
 
 namespace dot_net_motors.Classes
 {
-    public class Hatchback : Car
+    public class Hatchback : Car, ISpeed, IMileage
     {
+        public bool CanDrive { get; set; }
+        public string FuelType { get; set; }
+
+        public int Mph()
+        {
+            return 20;
+        }
+
+        public int Mpg()
+        {
+            return 20;
+        }
+
         public int CargoSpace;
 
         public override decimal Price { get; set; } = 40000.00m;
